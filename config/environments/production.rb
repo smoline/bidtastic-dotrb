@@ -71,7 +71,7 @@ Rails.application.configure do
   # }
 
   # Setup the mailer config with Google
-  config.action_mailer.default_url_options = { :host => 'dotrb-dibtastic.herokuapp.com' }
+  config.action_mailer.default_url_options = { :host => 'bidtastic-dotrb.herokuapp.com' }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.perform_deliveries = true
   config.action_mailer.raise_delivery_errors = true
@@ -114,6 +114,6 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
-  config.action_controller.asset_host = 'https://dotrb-dibtastic.herokuapp.com'
+  config.action_controller.asset_host = 'https://bidtastic-dotrb.herokuapp.com'
   config.action_mailer.asset_host = config.action_controller.asset_host
 end
