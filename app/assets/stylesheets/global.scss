@@ -1,5 +1,5 @@
 body {
-  background-image: url(https://s-media-cache-ak0.pinimg.com/736x/a4/9e/98/a49e980819401f79a707281edbb5bc64.jpg);
+  background: image-url('Hero.jpeg');
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment:fixed;
@@ -16,24 +16,23 @@ body {
   font-weight: normal;
 }
 
-.faved-heart{
-
-  color: red;
-}
-
 .page-header{
 
-  color:rgb(196, 145, 42);
+  color: hsl(47, 90%, 82%);
   font-family: sans-serif;
   font-variant: small-caps;
 }
 
 .body-show {
 
-  color: rgb(196, 145, 42);
+  color: hsl(47, 90%, 82%);
   font-family: sans-serif;
   font-variant: small-caps;
   font-size: 18px;
+}
+
+.bid-btn {
+  color: #000;
 }
 
 .media-tex {
@@ -67,7 +66,7 @@ body {
 
 .edhead {
 
-  color:rgb(187, 149, 35);
+  color: hsl(47, 90%, 82%);
   font-family: sans-serif;
   font-variant: small-caps;
 
@@ -75,7 +74,7 @@ body {
 
 .fmtxt {
 
-  color: rgb(187, 149, 35);
+  color: hsl(47, 90%, 82%);
   font-family: sans-serif;
   font-variant: small-caps;
 }

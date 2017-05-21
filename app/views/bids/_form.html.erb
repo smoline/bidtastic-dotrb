@@ -1,5 +1,5 @@
 <%= form_for([@item, @item.bids.build]) do |f| %>
     <%= f.label :bid_amount %>
     <%= f.number_field :bid_amount, placeholder: "Min: #{@item.next_minimum_bid}"%>
-    <%= f.submit "Place Bid" %>
+    <%= f.submit "Place Bid", class: "bid-btn" %>
 <% end %>
