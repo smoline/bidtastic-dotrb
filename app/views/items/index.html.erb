@@ -22,9 +22,9 @@
       <div class="textline">
         <h3><%= item.name %></h3>
         <% if user_logged_in? && favorited(item.id) == true %>
-          <p class="faved-heart" data-itemid="<%= item.id %>"> &hearts;</p>
+          <p class="faved-heart" data-itemid="<%= item.id %>"><i class="fa fa-heart" aria-hidden="true"></i></p>
         <% elsif user_logged_in? && favorited(item.id) == false %>
-          <p class="fav-heart" data-itemid="<%= item.id %>"> &hearts;</p>
+          <p class="fav-heart" data-itemid="<%= item.id %>"><i class="fa fa-heart" aria-hidden="true"></i></p>
         <% end %>
       </div>
 
