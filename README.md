@@ -2,7 +2,7 @@
 
 BIDTASTIC is deployed at:
 
-BIDTASTIC is a silent auction as a service (SASS) app developed as an assignment for The Iron Yard. BIDTASTIC was developed by .RB and it's principle members [Patrick Miller](https://github.com/pjmiller823), [Sherilyn Moline](https://github.com/smoline), [Angela Coates](https://github.com/angelacoates), and [Jose Campos](https://github.com/camposja).
+BIDTASTIC is a silent auction (SASS) app developed for our client Bidtastic. BIDTASTIC was developed by .RB and it's principle members [Patrick Miller](https://github.com/pjmiller823), [Sherilyn Moline](https://github.com/smoline), [Angela Coates](https://github.com/angelacoates), and [Jose Campos](https://github.com/camposja).
 
 The goal is to create a 'mobile first' app that can be customized for different charity auctions that purchase the app from our client.
 
