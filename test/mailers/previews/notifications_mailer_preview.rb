@@ -15,5 +15,4 @@ class NotificationsMailerPreview < ActionMailer::Preview
   def final_tally
     NotificationsMailer.final_tally(Item.all, Admin.first)
   end
-
 end
